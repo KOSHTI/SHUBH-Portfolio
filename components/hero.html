@@ -1,0 +1,60 @@
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">SHUBHAM KOSHTI</h1>
+                <h2 class="hero-title">I'm a <span id="role-text"></span></h2>
+                <p class="hero-description">Building innovative solutions at the intersection of software engineering, AI & ML and data science.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="social-links"><a href="https://www.linkedin.com/in/shubham-koshti-90abb2212/" class="social-link" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/KOSHTI" class="social-link" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/SHUBHAM.png" alt="Shubham Profile" class="profile-image">
+            </div>
+        </div>
+    </div>
+    <div class="scroll-down">
+        <a href="#about" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+    </div>
+</section>
+
+<script>
+    const roles = [
+        "Software Development Engineer", 
+        "AI & ML Enthusiast", 
+        "Freelancer"
+    ];
+    let currentRoleIndex = 0;
+    const roleText = document.getElementById('role-text');
+
+    function changeRole() {
+        roleText.innerHTML = '';  // Clear the text
+        const role = roles[currentRoleIndex];
+        let charIndex = 0;
+        roleText.style.color = 'var(--primary-color)';
+
+        // Typing effect logic
+        const typingInterval = setInterval(() => {
+            roleText.innerHTML += role.charAt(charIndex);
+            charIndex++;
+
+            if (charIndex === role.length) {
+                clearInterval(typingInterval);
+                setTimeout(() => {
+                    currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+                    changeRole();
+                }, 1000);
+            }
+        }, 50); // Change typing speed here
+    }
+
+    // Start the animation
+    changeRole();
+</script>

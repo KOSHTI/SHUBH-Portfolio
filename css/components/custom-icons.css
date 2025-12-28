@@ -1,0 +1,91 @@
+/* Logo icon styles */
+
+/* Copyright styling */
+.Copyright-badge i {
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Certification Badge Styles */
+.cert-logo-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color-alt);
+    border-radius: 12px;
+    padding: 2px 8px;
+    margin-left: 6px;
+    border: 1px solid var(--border-color);
+    position: relative;
+    top: -1px;
+    transition: all var(--transition-fast);
+    min-width: 24px;
+    min-height: 16px;
+}
+
+.hackerrank-badge i {
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.Copyright-cert {
+    border: 1px solid rgba(var(--primary-color-rgb), 0.15);
+    background: linear-gradient(
+        to bottom right,
+        var(--card-bg),
+        var(--card-bg),
+        rgba(var(--primary-color-rgb), 0.05)
+    );
+}
+
+.hackerrank-cert {
+    border: 1px solid rgba(var(--primary-color-rgb), 0.15);
+    background: linear-gradient(
+        to bottom right,
+        var(--card-bg),
+        var(--card-bg),
+        rgba(var(--primary-color-rgb), 0.05)
+    );
+}
+
+/* Copyright badge hover */
+.cert-card:hover .Copyright-badge {
+    background-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+.cert-card:hover .Copyright-badge i {
+    color: white;
+}
+
+/* HackerRank badge hover */
+.cert-card:hover .hackerrank-badge {
+    background-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+.cert-card:hover .hackerrank-badge i {
+    color: white;
+}
+
+.cert-description {
+    text-align: justify;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .Copyright-badge i {
+        font-size: 12px;
+    }
+    
+    .hackerrank-badge i {
+        font-size: 12px;
+    }
+    
+    .cert-logo-badge {
+        padding: 1px 6px;
+        min-width: 20px;
+        min-height: 14px;
+    }
+}
