@@ -2,7 +2,7 @@
 
 Welcome to the official online portfolio of Shubham Koshti! This modern, responsive website showcases my skills, projects, and professional journey in the fields of Software Development Engineering, Artificial Intelligence and Machine Learning.
 
-🔗 Explore My Portfolio (https://koshti.github.io/SHUBH-Portfolio/))
+🔗 [**Explore My Portfolio**](https://koshti.github.io/SHUBH-Portfolio/)
 
 ---
 
@@ -188,4 +188,5 @@ The contact form uses Formspree to handle submissions. To configure it for your 
 3. Replace the form action URL in `contact.html` with your own Formspree endpoint
 
 ---
+
 
