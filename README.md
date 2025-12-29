@@ -1,32 +1,32 @@
 # Shubham's Portfolio Website
 
-A modern, responsive portfolio website showcasing Shubham's skills, projects, and professional experience in both Software Development Engineering and Data Science & Machine Learning.
+Welcome to the official online portfolio of Shubham Koshti! This modern, responsive website showcases my skills, projects, and professional journey in the fields of Software Development Engineering, Artificial Intelligence and Machine Learning.
 
-🔗 [Visit My Portfolio]([Live Preview](https://koshti.github.io/SHUBH-Portfolio/))
+🔗 Explore My Portfolio (https://koshti.github.io/SHUBH-Portfolio/))
 
 ---
 
 ## Features
 
-- **Responsive Design**: Works seamlessly on devices of all sizes
-- **Light/Dark Mode**: Toggle between light and dark themes
-- **Interactive UI**: Smooth animations and transitions
-- **Resume Section**: Different resume versions for different career focuses
-- **Project Showcase**: Filterable project gallery
-- **Publications & Certifications**: Showcase of academic and professional achievements
-- **Contact Form**: Easy way for visitors to get in touch
+- **Responsive Design**: Optimized for all device sizes
+- **Dynamic Theme Switcher**: Toggle between light and dark modes
+- **Interactive UI**: Engaging animations and smooth transitions
+- **Resume Showcase**: Separate sections for each career focus
+- **Project Gallery**: Easily filter and explore my work
+- **Publications & Certifications**: Academic and professional milestones
+- **Contact Form**: Reach out directly for collaborations or inquiries
 
 ---
 
 ## Technology Stack
 
-- HTML5
-- CSS3 (Flexbox, Grid, Custom Properties)
-- Vanilla JavaScript (ES6+)
-- Component-based Architecture
-- Font Awesome Icons
-- Google Fonts
-- Formspree (for form handling)
+- HTML5 for structuring the content
+- CSS3 (Flexbox, Grid, Custom Properties) for responsive layouts
+- Vanilla JavaScript (ES6+) for interactive features
+- Modular Architecture for maintainable and reusable code
+- Font Awesome for icons
+- Google Fonts for elegant typography
+- Formspree for handling form submissions securely
 
 ---
 
@@ -34,10 +34,10 @@ A modern, responsive portfolio website showcasing Shubham's skills, projects, an
 
 The CSS is organized using a component-based approach:
 
-- **base.css**: Core styles, variables, and resets
-- **common.css**: Shared styles used across the site (section headings, animations, utility classes, shared components)
-- **responsive.css**: All media queries and responsive adaptations, organized by component
-- **components/**: Each UI component has its own CSS file (e.g., `header.css`, `hero.css`, `about.css`, etc.)
+- **base.css**: Core styles, variables, and global resets
+- **common.css**: Shared styles for sections, animations, utility classes, etc.
+- **responsive.css**: Contains all responsive styles for different screen sizes
+- **components/**: Each UI component has its own stylesheet (e.g., `header.css`, `hero.css`, `about.css`, etc.)
 
 ### CSS Variables
 
@@ -48,11 +48,11 @@ The project uses CSS variables (custom properties) for consistent styling. Examp
   --primary-color: #4361ee;
   --secondary-color: #3f37c9;
   --accent-color: #4895ef;
-  --text-color: #333333;
-  --text-color-light: #666666;
-  --bg-color: #ffffff;
-  --bg-color-alt: #f9f9f9;
-  --card-bg: #ffffff;
+  --text-color: #333;
+  --text-color-light: #666;
+  --background-color: #fff;
+  --background-alt: #f9f9f9;
+  --card-bg: #fff;
   --border-color: #e0e0e0;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --success-color: #4caf50;
@@ -64,7 +64,6 @@ The project uses CSS variables (custom properties) for consistent styling. Examp
   --border-radius-sm: 4px;
   --border-radius-md: 8px;
   --border-radius-lg: 16px;
-  --border-radius-round: 50%;
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
@@ -73,15 +72,15 @@ The project uses CSS variables (custom properties) for consistent styling. Examp
 
 ### Best Practices
 
-- Use existing CSS variables for colors, spacing, etc.
-- Place component-specific styles in their dedicated files under `css/components/`
-- Use BEM naming conventions for clarity
-- Add all responsive styles to `responsive.css`
-- Use `common.css` for shared components
+- Use CSS variables for consistent styling
+- Organize component-specific styles in `css/components/`
+- Follow the BEM (Block Element Modifier) naming convention for clarity
+- Define all media queries in `responsive.css` for better maintainability
+-Keep reusable components in `common.css`
 
 ### Dark Mode
 
-The site supports dark mode through a class toggle on the `<body>` element. Dark mode styles are included in each component file.
+The site supports a dark mode toggle feature for users who prefer a darker interface. The transition is smooth and included in the component styles.
 
 ---
 
@@ -161,30 +160,32 @@ portfolio/
 This website is designed to be hosted on GitHub Pages:
 
 1. Fork this repository
-2. Enable GitHub Pages in your repository settings
-3. The site will be available at `https://koshti.github.io/portfolio`
+2. Navigate to your repository settings on GitHub
+3. Enable GitHub Pages, and choose `main` branch as the source
+4. Your site will be available at `https://koshti.github.io/SHUBH-Portfolio/`
 
 For local development:
 
 1. Clone the repository
-2. Open `index.html` in your browser
+2. Open `index.html` in your browser to view the site locally
 
 ---
 
 ## Customization
 
-- Update the profile image in the `assets/images/` folder
-- Replace resume PDFs in `assets/resumes/` with your own
-- Modify project details in the HTML
-- Customize colors in CSS variables (in `base.css`)
+- Replace the profile image in the `assets/images/` folder
+- Upload your personal resume PDF in the `assets/resumes/` folder
+- Update project information in the corresponding HTML files
+- Customize colors by editing the CSS variables in `base.css`
 
 ---
 
 ## Contact Form
 
 The contact form uses Formspree to handle submissions. To configure it for your own use:
-1. Sign up for a free Formspree account
-2. Create a new form and get your form endpoint
-3. Replace the action URL in the HTML form
+1. Create a Formspree account
+2. Set up a new form to get your form endpoint
+3. Replace the form action URL in `contact.html` with your own Formspree endpoint
 
 ---
+
