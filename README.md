@@ -8,13 +8,13 @@ Welcome to the official online portfolio of Shubham Koshti! This modern, respons
 
 ## Features
 
-- **Responsive Design**: Optimized for all device sizes
-- **Dynamic Theme Switcher**: Toggle between light and dark modes
-- **Interactive UI**: Engaging animations and smooth transitions
-- **Resume Showcase**: Separate sections for each career focus
-- **Project Gallery**: Easily filter and explore my work
-- **Publications & Certifications**: Academic and professional milestones
-- **Contact Form**: Reach out directly for collaborations or inquiries
+- **Responsive Design:** Optimized for all device sizes
+- **Dynamic Theme Switcher:** Toggle between light and dark modes
+- **Interactive UI:** Engaging animations and smooth transitions
+- **Resume Showcase:** Separate sections for each career focus
+- **Project Gallery:** Easily filter and explore my work
+- **Publications & Certifications:** Academic and professional milestones
+- **Contact Form:** Reach out directly for collaborations or inquiries
 
 ---
 
@@ -34,10 +34,10 @@ Welcome to the official online portfolio of Shubham Koshti! This modern, respons
 
 The CSS is organized using a component-based approach:
 
-- **base.css**: Core styles, variables, and global resets
-- **common.css**: Shared styles for sections, animations, utility classes, etc.
-- **responsive.css**: Contains all responsive styles for different screen sizes
-- **components/**: Each UI component has its own stylesheet (e.g., `header.css`, `hero.css`, `about.css`, etc.)
+- **base.css:** Core styles, variables, and global resets
+- **common.css:** Shared styles for sections, animations, utility classes, etc.
+- **responsive.css:** Contains all responsive styles for different screen sizes
+- **components/:** Each UI component has its own stylesheet (e.g., `header.css`, `hero.css`, `about.css`, etc.)
 
 ### CSS Variables
 
@@ -188,5 +188,6 @@ The contact form uses Formspree to handle submissions. To configure it for your 
 3. Replace the form action URL in `contact.html` with your own Formspree endpoint
 
 ---
+
 
 
