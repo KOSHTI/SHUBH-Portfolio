@@ -187,4 +187,5 @@ The contact form uses Formspree to handle submissions. To configure it for your 
 2. Set up a new form to get your form endpoint
 3. Replace the form action URL in `contact.html` with your own Formspree endpoint
 
+
 ---
